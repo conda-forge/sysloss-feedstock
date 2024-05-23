@@ -27,7 +27,7 @@ requirements:
     - rich >=12.0.0
     - toml >=0.10.2
     - matplotlib-base >=3.0.0,<4.0.0
-    - tqdm = ">=4.63"
+    - tqdm =">=4.63"
 
 test:
   imports:
