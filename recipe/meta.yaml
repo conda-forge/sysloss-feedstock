@@ -1,5 +1,5 @@
 {% set name = "sysloss" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sysloss-{{ version }}.tar.gz
-  sha256: 2bb70b04f7b4a3f9a8c63d2fa9bf450110bda47f2d351e4981c6937a1cb2c046
+  sha256: d776818c2b278bb1870ea318d285c677227f1d894eeeeefe55ee66f8f4273103
 
 build:
   noarch: python
@@ -40,8 +40,18 @@ test:
 about:
   home: https://github.com/geddy11/sysloss
   summary: Power analysis of circuits and systems.
+  description: |
+    sysLoss is a tool for analyzing system power and losses. From the smallest
+    IoT sensor to large industrial installations. The tool is efficient and easy
+    to use, the analysis result provides a detailed report on voltages, currents,
+    power and efficiency for every component defined in the system. sysLoss can
+    interface to external battery models to estimate battery life. Output format
+    is Pandas DataFrame: Create charts, plots and export to Excel and other formats.
   license: MIT
   license_file: LICENSE
+  doc_url: https://sysloss.readthedocs.io/
+  dev_url: https://github.com/geddy11/sysloss
+
 
 extra:
   recipe-maintainers:
