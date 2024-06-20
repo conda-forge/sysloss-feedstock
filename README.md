@@ -9,6 +9,18 @@ Package license: MIT
 
 Summary: Power analysis of circuits and systems.
 
+Development: https://github.com/geddy11/sysloss
+
+Documentation: https://sysloss.readthedocs.io/
+
+sysLoss is a tool for analyzing system power and losses. From the smallest
+IoT sensor to large industrial installations. The tool is efficient and easy
+to use, the analysis result provides a detailed report on voltages, currents,
+power and efficiency for every component defined in the system. sysLoss can
+interface to external battery models to estimate battery life. Output format
+is Pandas DataFrame: Create charts, plots and export to Excel and other formats.
+
+
 Current build status
 ====================
 
