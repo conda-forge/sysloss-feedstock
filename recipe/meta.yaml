@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/geddy11/sysloss
-  summary: Power analysis of circuits and systems.
+  summary: Power tree analysis of circuits, boards and systems.
   description: |
     sysLoss is a tool for analyzing system power and losses. From the smallest
     IoT sensor to large industrial installations. The tool is efficient and easy
