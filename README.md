@@ -7,7 +7,7 @@ Home: https://github.com/geddy11/sysloss
 
 Package license: MIT
 
-Summary: Power analysis of circuits and systems.
+Summary: Power tree analysis of circuits, boards and systems.
 
 Development: https://github.com/geddy11/sysloss
 
