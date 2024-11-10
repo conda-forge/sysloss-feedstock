@@ -1,5 +1,5 @@
 {% set name = "sysloss" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sysloss-{{ version }}.tar.gz
-  sha256: 14bfa5abe6d4524156390a99e52e655b0a79f24b93b69394b4d8b1be5b3086f3
+  sha256: d73d4d95886bab0f2c2055812cb36a33f547fc41edea999b2acf48a12f8ffcf2
 
 build:
   noarch: python
