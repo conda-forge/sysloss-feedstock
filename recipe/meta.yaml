@@ -1,14 +1,14 @@
-{% set python_min = "3.10.0" %}
+{% set python_min = "3.11" %}
 {% set name = "sysloss" %}
-{% set version = "1.10.0" %}
+{% set version = "1.10.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sysloss-{{ version }}.tar.gz
-  sha256: 2a7011f081767dbae8c8b76eb0e8b0977e8e33ea7a4d94168e15432e3d086d94
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sysloss-{{ version }}.tar.gz
+  sha256: ca6b5d68b43c4d441fe179eecfa9afe8c265b877c81be7f5b67cf8a77f4ba2ef
 
 build:
   noarch: python
@@ -23,15 +23,15 @@ requirements:
   run:
     - python >={{ python_min }},<4.0.0
     - scipy >=1.9.0,<2.0.0
-    - pandas >=2.0.0,<3.0.0
+    - pandas >=2.0.0,<4.0.0
     - rustworkx >=0.13.0
     - rich >=12.0.0
     - toml >=0.10.2
     - matplotlib-base >=3.0.0,<4.0.0
     - tqdm >=4.63.0
     - packaging >=21.1
-    - pydot >=3.0.0
-    - pillow >=9.3.0
+    - pydot >=3.0.0,<4.0.0
+    - pillow >=13.0.0
 
 test:
   imports:
